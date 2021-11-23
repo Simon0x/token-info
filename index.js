@@ -24,7 +24,7 @@ async function handleRequest(request) {
 }
 
 async function getTokenSupply() {
-  const tokenSupplyRequestUrl = `https://api.etherscan.io/api?module=stats&action=tokensupply&contractaddress=${CONTRACT_ADDRESS}&apikey=${API_KEY}`
+  const tokenSupplyRequestUrl = `https://api.etherscan.io/api?module=stats&action=tokensupply&contractaddress=${CONTRACT_ADDRESS}&apikey=${ETHERSCAN_API_TOKEN}`
   const response = await fetch(tokenSupplyRequestUrl)
   const data = await response.json()
   return data.result

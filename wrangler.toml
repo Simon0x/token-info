@@ -8,5 +8,5 @@ zone_id = ""
 compatibility_date = "2021-11-23"
 
 [vars]
-API_KEY = ""
-CONTRACT_ADDRESS = ""
+ETHERSCAN_API_TOKEN = ""
+CONTRACT_ADDRESS = "0xd528cf2e081f72908e086f8800977df826b5a483"
